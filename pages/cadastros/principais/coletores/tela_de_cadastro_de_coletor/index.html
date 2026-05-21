@@ -1,0 +1,289 @@
+<!DOCTYPE html><html class="writer-html5" lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="canonical" href="http://ipontoweb.com.br/manual/pages/cadastros/principais/coletores/tela_de_cadastro_de_coletor/">
+      <link rel="shortcut icon" href="../../../../../img/favicon.ico">
+    <title>Página de Cadastro - iPonto Web - Manual Operacional</title>
+    <link rel="stylesheet" href="../../../../../css/theme.css">
+    <link rel="stylesheet" href="../../../../../css/theme_extra.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link href="../../../../../style/estilos.css" rel="stylesheet">
+    
+      <script>
+        // Current page data
+        var properdocs_page_name = "P\u00e1gina de Cadastro";
+        var properdocs_page_input_path = "pages\\cadastros\\principais\\coletores\\tela_de_cadastro_de_coletor.md";
+        var properdocs_page_url = "/manual/pages/cadastros/principais/coletores/tela_de_cadastro_de_coletor/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+<link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+        </style></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../../../.." class="icon icon-home"> iPonto Web - Manual Operacional
+        </a><div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here">
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Introdução</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../introducao/tela_de_boas_vindas/">Boas Vindas</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../introducao/planos/">Planos</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../introducao/equipamentos_integrados/">Equipamentos Integrados</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Usando o iPonto Web</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal">Acesso ao Sistema</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../acesso_ao_sistema/registro/">Registro</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../acesso_ao_sistema/login/">Login</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../acesso_ao_sistema/recuperacao_de_senha/">Recuperação de Senha</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current">Cadastros</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal">Colaboradores</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../colaboradores/lista_de_colaboradores/">Página de Consulta</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../colaboradores/tela_de_cadastro_de_colaboradores/">Página de Cadastro</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current">Coletores</a>
+    <ul class="current">
+                <li class="toctree-l3"><a class="reference internal" href="../lista_de_coletores/">Página de Consulta</a>
+                </li>
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Página de Cadastro</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#aplicacao">Aplicação</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#control-id">Control iD</a>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal">Cadastros Auxiliares</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal">Cargos</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/cargos/lista_de_cargos/">Página de Consulta</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/cargos/modal_de_cadastro_de_cargos/">Modal de Cadastro</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal">Departamentos</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/departamentos/lista_de_departamentos/">Página de Consulta</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/departamentos/modal_de_cadastro_de_departamentos/">Modal de Cadastro</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal">Setores</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/setores/lista_de_setores/">Página de Consulta</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/setores/modal_de_cadastro_de_setores/">Modal de Cadastro</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal">Centros de Custo</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/centros_de_custo/lista_de_centroscusto/">Página de Consulta</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/centros_de_custo/modal_de_cadastro_de_centroscusto/">Modal de Cadastro</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal">Tipos de Ocorrêcia</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/tipos_de_ocorrencia/lista_de_tipos_de_ocorrencia/">Página de Consulta</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../auxiliares/tipos_de_ocorrencia/modal_de_cadastro_de_tipos_de_ocorrencia/">Modal de Cadastro</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal">Geral</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../geral/iponto_web_agent/iponto_web_agent/">iPonto Web Agent</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Área Restrita</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../area_restrita/revendedor/revendedor/">Revendedor</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../area_restrita/inspell/inspell/">Inspell</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../..">iPonto Web - Manual Operacional</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Usando o iPonto Web</li>
+          <li class="breadcrumb-item">Cadastros</li>
+          <li class="breadcrumb-item">Coletores</li>
+      <li class="breadcrumb-item active">Página de Cadastro</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pagina-de-cadastro-de-coletor"><span class="titulo_azul"> <b>Página de Cadastro de Coletor</b> </span></h1>
+<hr>
+<h2 id="aplicacao"><strong>Aplicação</strong></h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A tela de cadastro é <strong>acessada</strong> ao clicar no botão <span class="spanBotoes" style="background-color: #254BC3">+ Novo Coletor</span> na página de consulta de coletores. O formulário de cadastro é dividido em duas <strong>seções expansíveis</strong> (<strong>Identificação</strong> e <strong>Configuração</strong>), constituídas por diversos <strong>parâmetros</strong> de configuração, os quais variam conforme o <strong>modelo</strong> e a <strong>marca</strong> do coletor.</p>
+<hr>
+<h2 id="control-id">Control iD</h2>
+<ul>
+<li>
+<h3 id="equipamentos-rep-c">Equipamentos REP-C:</h3>
+<ul>
+<li>
+<h3 id="secao-identificacao">Seção Identificação:</h3>
+</li>
+</ul>
+</li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../../image/cadastros/principais/coletores/tela_de_cadastro_de_coletor_identificacao_idclass.png" data-desc-position="bottom"><img alt="Image2" src="../../../../../image/cadastros/principais/coletores/tela_de_cadastro_de_coletor_identificacao_idclass.png"></a>
+  </p>
+<figcaption>Interface de Cadastro de Coletores iDClass - Seção Identificação</figcaption>
+</figure>
+<ul>
+<li><em>Toogle de Ativação / Inativação:</em> Altera o <strong>status atual</strong> do coletor:<ul>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../../image/geral/dashboard/toogle_ativo.png" data-desc-position="bottom"><img alt="Ativo" src="../../../../../image/geral/dashboard/toogle_ativo.png"></a> ➡ Coletor <strong>Ativo</strong> / <strong>Em Operação</strong>.</li>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../../image/geral/dashboard/toogle_inativo.png" data-desc-position="bottom"><img alt="Inativo" src="../../../../../image/geral/dashboard/toogle_inativo.png"></a> ➡ Coletor <strong>Inativo</strong> / <strong>Fora de Operação</strong>.</li>
+</ul>
+</li>
+<li><em>Descrição:</em> Exibe a descrição do <strong>coletor</strong>, conforme consta em seu cadastro.</li>
+<li><em>Número de Série:</em> Número de <strong>Fabricação</strong> / <strong>Série</strong> do equipamento, utilizado para <strong>identificação</strong> e realização de <strong>vínculo</strong> através do <strong>iGateway</strong>. Comumente vem <strong>anotado</strong> na parte inferior <strong>frontal</strong> do coletor. </li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../../image/cadastros/principais/coletores/rep_idclass.png" data-desc-position="bottom"><img alt="Image5" src="../../../../../image/cadastros/principais/coletores/rep_idclass.png"></a></p>
+<ul>
+<li>
+<p><em>Vínculo Unidade de Negócio:</em> Define à qual <strong>unidade de negócio</strong> o coletor será vinculado.</p>
+<ul>
+<li>
+<h3 id="secao-configuracao">Seção Configuração:</h3>
+</li>
+</ul>
+</li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../../image/cadastros/principais/coletores/tela_de_cadastro_de_coletor_configuracoes_idclass.png" data-desc-position="bottom"><img alt="Image2" src="../../../../../image/cadastros/principais/coletores/tela_de_cadastro_de_coletor_configuracoes_idclass.png"></a>
+  </p>
+<figcaption>Interface de Cadastro de Coletores iDClass - Seção Configurações</figcaption>
+</figure>
+<ul>
+<li><em>Interface de Comunicação:</em> Define qual <strong>método de comunicação</strong> será utilizado pelo equipamento para interligação com o <strong>iGateway</strong>. No caso dos <strong>REP's iDClass</strong>, a opção é fixa no valor "<strong>TCP / IP</strong>".</li>
+<li>
+<p><em>Endereço IP:</em> Endereço IP <strong>fixo</strong> do equipamento utilizado para <strong>identificação</strong> do coletor na rede e estabelecimento de <strong>conexão</strong>.</p>
+<div class="admonition danger">
+<p class="admonition-title">Atenção</p>
+<p>Certifique-se de que o seu <strong>REP iDClass</strong> não está com a configuração de <strong>IP Dinâmico</strong> (<strong>DHCP</strong>) ativada nas configurações internas do equipamento, pois isso pode ocasionar a <strong>troca</strong> automática do <strong>Endereço IP</strong>, impedindo a identificação do coletor pelo <strong>iGateway</strong>.</p>
+</div>
+</li>
+<li>
+<p><em>Porta:</em> Assim como o <strong>Endereço IP</strong>, é utilizada para estabelecimento de <strong>conexão com o equipamento</strong> na rede. No caso dos <strong>REP's iDClass</strong> a porta padrão é <strong>443</strong>.</p>
+</li>
+<li><em>Usuário:</em> Define o <strong>nome de usuário</strong> que será utilizado para acessar a <strong>interface web</strong> do equipamento.</li>
+<li><em>Senha Login:</em> Define a <strong>senha</strong> que será utilizada, juntamente com o nome de usuário, para acessar a <strong>interface web</strong> do equipamento.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../lista_de_coletores/" class="btn btn-neutral float-left" title="Página de Consulta"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../../auxiliares/cargos/lista_de_cargos/" class="btn btn-neutral float-right" title="Página de Consulta">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://properdocs.org/">ProperDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../lista_de_coletores/" style="color: #fcfcfc">« Previous</a></span>
+    
+    
+      <span><a href="../../../auxiliares/cargos/lista_de_cargos/" style="color: #fcfcfc">Next »</a></span>
+    
+  </span>
+</div>
+    <script src="../../../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../../../..";</script>
+    <script src="../../../../../js/theme_extra.js"></script>
+    <script src="../../../../../js/theme.js"></script>
+      <script src="../../../../../js/traducao.js"></script>
+      <script src="../../../../../js/edicao_de_menus.js"></script>
+      <script src="../../../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+
+
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+</script></body></html>
