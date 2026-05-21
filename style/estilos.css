@@ -202,3 +202,32 @@ img[alt=GIF] {
 .wy-menu-vertical a.menu-protegido::before {
   content: "🔐 ";
 }
+
+/* Imagem dos Coletores */
+
+img[alt=Coletor] {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #F1F5F9;
+    background-color: #E5EDF9;
+    transition: transform 0.25s ease,
+                filter 0.25s ease,
+                box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+img[alt=Coletor]:hover {
+    transform: translateY(-6px) scale(2);
+    filter: brightness(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.coletores {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}

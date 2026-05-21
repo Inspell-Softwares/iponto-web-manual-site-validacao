@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  const protegidos = ["Revendedor", "Inspell"];
+  const protegidos = ["Revendedor", "Técnico Inspell"];
 
   document.querySelectorAll(".wy-menu-vertical a").forEach(function (link) {
     const texto = link.textContent.trim();
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const emRevisao = [
     "Coletores",
     "Revendedor",
-    "Inspell",
+    "Técnico Inspell",
   ];
 
   document.querySelectorAll(".wy-menu-vertical a").forEach(function (link) {

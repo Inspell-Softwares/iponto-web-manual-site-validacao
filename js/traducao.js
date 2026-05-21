@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const campoBusca = document.querySelector(".wy-form input[type='text']");
 
   if (campoBusca) {
-    campoBusca.placeholder = "Digite para pesquisar";
+    campoBusca.placeholder = "Digite Para Pesquisar";
   }
 
 });

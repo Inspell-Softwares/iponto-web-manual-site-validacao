@@ -101,21 +101,7 @@ function decrypt_content_from_bundle(key, ciphertext_bundle) {
     return false;
 };
 
-/* Save decrypted keystore to sessionStorage */
-function setKeys(keys_from_keystore) {
-    for (const id in keys_from_keystore) {
-        sessionStorage.setItem(id, keys_from_keystore[id]);
-    }
-};
 
-/* Delete key with specific name in sessionStorage */
-function delItemName(key) {
-    sessionStorage.removeItem(key);
-};
-
-function getItemName(key) {
-    return sessionStorage.getItem(key);
-};
 
 /* Reload scripts src after decryption process */
 function reload_js(src) {
@@ -225,7 +211,7 @@ function decryptor_reaction(key_or_keys, password_input, fallback_used=false) {
         let key;
         if (typeof key_or_keys === "object") {
             key = key_or_keys[encryptcontent_id];
-            setKeys(key_or_keys);
+            
             
         } else {
             key = key_or_keys;
@@ -255,7 +241,7 @@ function decryptor_reaction(key_or_keys, password_input, fallback_used=false) {
                 password_input.focus();
             }
         }
-        delItemName(encryptcontent_id);
+        
     }
 }
 
@@ -270,15 +256,6 @@ function init_decryptor() {
     var encrypted_content = document.getElementById('mkdocs-encrypted-content');
     var decrypted_content = document.getElementById('mkdocs-decrypted-content');
     let content_decrypted;
-    /* If remember_keys is set, try to use sessionStorage item to decrypt content when page is loaded */
-    let key_from_storage = getItemName(encryptcontent_id);
-    if (key_from_storage) {
-        content_decrypted = decrypt_action(
-            password_input, encrypted_content, decrypted_content, key_from_storage, username_input
-        );
-        
-        decryptor_reaction(content_decrypted, password_input, true);
-    }
     
     
     /* Default, try decrypt content when key (ctrl) enter is press */
