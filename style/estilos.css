@@ -26,6 +26,24 @@ img[alt=Image2] {
     border-radius: 10px;
 }
 
+/* Imagem Maior */
+
+img[alt=Image1] {
+    border-style: ridge;
+    border-color: #254bc3ff;
+    border-width: 3px;
+    box-shadow:
+        2px 2px 3px rgba(0, 0, 0, 0.12),
+        2px 2px 3px rgba(0, 0, 0, 0.24);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
 /* Legenda das Imagens */
 
 .rst-content figcaption {
@@ -45,16 +63,6 @@ img[alt=Image4] {
     text-align: center;
     justify-content: center;
     font-weight: bolder;
-}
-
-img[alt=Image5] {
-    width: 10%;
-    padding: 20px;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 50%;
-    border-color: #F1F5F9;
-    background-color: #E5EDF9;
 }
 
 /* GIF */
